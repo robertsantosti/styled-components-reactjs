@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div``;
 
 export const Header = styled.header`
-  background-color: ${props => props.bgc};
+  background-color: ${props => props.theme.colors.red};
   min-height: 100vh;
   display: flex;
   flex-direction: column;
