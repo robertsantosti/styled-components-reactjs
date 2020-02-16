@@ -1,16 +1,17 @@
 import React from "react";
 import logo from "./logo.svg";
-import styled from "styled-components";
+
+import * as Styled from "./styles";
 import "./App.css";
 
 function App() {
   return (
-    <Container>
-      <Header>
+    <Styled.Container>
+      <Styled.Header bgc="#FF4500">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <Styled.Text>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
+        </Styled.Text>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -19,20 +20,9 @@ function App() {
         >
           Learn React
         </a>
-      </Header>
-    </Container>
+      </Styled.Header>
+    </Styled.Container>
   );
 }
 
-const Container = styled.div``;
-const Header = styled.header`
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-`;
 export default App;
