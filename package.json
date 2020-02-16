@@ -1,0 +1,12 @@
+{
+  "name": "styled-components-reactjs",
+  "version": "1.0.0",
+  "description": "Desafio Pratico Bootcamp Digital Innovatio One",
+  "main": "index.js",
+  "repository": "https://github.com/robertsantosti/styled-components-reactjs.git",
+  "author": "Robert Santos <robertsantosti@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "app": "^0.1.0"
+  }
+}
