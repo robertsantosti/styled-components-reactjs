@@ -11,7 +11,7 @@ function App() {
   return (
     <ThemeProvider theme={lightTheme}>
       <Styled.Container>
-        <Styled.Header bgc="">
+        <Styled.Header area="biologia">
           <img src={logo} className="App-logo" alt="logo" />
           <Styled.Text>
             Edit <code>src/App.js</code> and save to reload.
